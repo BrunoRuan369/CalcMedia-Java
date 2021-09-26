@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class media {
+    public static void main(String[] args) {
+
+        java.util.Scanner nota = new Scanner(System.in);
+        Float n1, n2, n3, media;
+        System.out.println("coloque a nota do seu primeiro trimestre");
+    n1 = nota.nextFloat();
+    System.out.println("coloque a nota do seu segundo trimestre");
+    n2 = nota.nextFloat();
+    System.out.println("coloque a nota do seu terceiro trimestre");
+    n3 = nota.nextFloat();
+    media = (n1+n2+n3)/3;
+    System.out.println(media = (n1+n2+n3)/3);
+        if(media> 7)
+        {
+            System.out.print("voce foi aprovado");
+        }
+        else
+        {
+            System.out.println("voce foi reprovado");
+        }
+
+        System.out.println(" sua media final é:" + media);
+    }
+
+
+
+
+
+
+
+}
